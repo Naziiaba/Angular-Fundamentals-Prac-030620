@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   <h2> {{"Welcome " + name}}</h2>
   <h2> {{name.length}}</h2>
   <h2>{{name.toUpperCase()}}</h2>
+  <h3>{{name.toLowerCase()}}</h3>
   <h2> {{greetUser()}}</h2>
   <input [id]="myId" type="text" value="test">
   `,
